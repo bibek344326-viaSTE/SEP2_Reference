@@ -1,0 +1,52 @@
+.button,.button1,.button2{
+  -fx-background-color: rgba(192, 145, 240, 0.74);
+  -fx-background-radius: 30 30 30 30;
+  -fx-text-fill: #FFCB3E;
+}
+
+.button:hover,.button1:hover,.button2:hover{
+  -fx-background-color: #7D7CF9;
+  -fx-background-radius: 30 30 30 30;
+}
+
+.button:pressed,.button1:pressed,.button2:pressed{
+  -fx-background-color: #C6C09C;
+  -fx-background-radius: 30 30 30 30;
+}
+
+.anchorPane{
+  -fx-background-color:  linear-gradient( #3becf1, #5f57a9);
+}
+
+
+.buttonRed{
+  -fx-background-color: #cf0516;
+  -fx-text-base-color: rgb(255, 255, 255);
+}
+
+.buttonRed:hover{
+  -fx-background-color: rgb(255, 0, 0);
+}
+
+.buttonGreen{
+  -fx-background-color: #1eaf01;
+  -fx-text-base-color: rgb(255, 255, 255);
+}
+
+.buttonGreen:hover{
+  -fx-background-color: rgb(49, 247, 0);
+}
+
+.text-field{
+  -fx-background-color: rgba(255, 255, 255, 0);
+  -fx-prompt-text-fill: #618196;
+  -fx-border-style: solid ;
+  -fx-border-width: 0 0 .5px  0 ;
+}
+.text-field:hover{
+  -fx-background-color: rgba(84, 109, 149, 0.17);
+  -fx-prompt-text-fill: #273dd0;
+  -fx-text-fill: blue;
+  -fx-border-style: solid ;
+  -fx-border-width: 0 0 1px  0 ;
+}
